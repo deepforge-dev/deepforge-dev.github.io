@@ -1,0 +1,18 @@
+.dark {
+    background-color: #36394B!important;
+}
+
+.really-dark {
+    background-color: #03061f!important;
+}
+
+.page-footer {
+  padding-top: 0!important;
+}
+
+.deepforge-logo {
+  background: url(./logo.png) no-repeat 6px center;
+  height: 40px;
+  width: 200px;
+  display: block;
+}
