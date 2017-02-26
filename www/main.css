@@ -16,8 +16,9 @@
 }
 
 .brand-logo {
-  background: url(./deepforge-logo.png) no-repeat 10px 8px;
-  height: 90px;
+  background: url(./deepforge-logo.png) no-repeat 10px 12px;
+  background-size: 75%;
+  height: 60px;
   width: 200px;
   display: block;
 }
