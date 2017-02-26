@@ -6,10 +6,26 @@
   background-color: #040620!important;
 }
 
-.banner-background {
-  background-color: #bbb!important;
+.logo-grey {
+  color: #c3c4c6;
 }
 
+.logo-orange {
+  color: #fcbe85;
+}
+
+.banner-background {
+  background: linear-gradient(135deg, hsl(29, 32%, 41%), #313131);
+}
+
+.banner-background .h5 {
+  color: #c3c4c6;
+}
+
+.banner-background .btn-large {
+  background-color: #fcbe85;
+  color: #444;
+}
 
 .page-footer {
   padding-top: 0!important;
