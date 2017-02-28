@@ -4,19 +4,24 @@
         <title>DeepForge</title>
         <link rel="stylesheet" href="/lib/materialize.min.css" type="text/css" media="screen" charset="utf-8">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script charset="utf-8" src="lib/materialize.min.js"></script>
         <link rel="stylesheet" href="/main.css" type="text/css" media="screen" charset="utf-8">
+        <script charset="utf-8" src="lib/jquery.min.js"></script>
+        <script charset="utf-8" src="lib/materialize.min.js"></script>
+        <script charset="utf-8">
+            $(document).ready(function() {
+                $('.materialboxed').materialbox();
+            });
+        </script>
     </head>
 <body>
     <nav>
     <div class="nav-wrapper really-dark">
-        <!-- TODO: update the logo -->
-        <!-- TODO: update the colors -->
+        <!-- TODO: make the banner a slideshow of screenshots -->
         <a href="#" class="brand-logo"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="badges.html">Tutorials</a></li>
-            <li><a href="collapsible.html">Wiki</a></li>
-            <li><a href="sass.html">Issues</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="https://github.com/deepforge-dev/deepforge/wiki">Wiki</a></li>
+            <li><a href="https://github.com/deepforge-dev/deepforge/issues">Issues</a></li>
         </ul>
     </div>
     </nav>
@@ -28,7 +33,6 @@
             <a class="btn-large waves-effect waves-light" href="TODO" target="_blank">Get Started!</a>
         </div>
         <br>
-        <!-- TODO: main deepforge banner -->
     </div>
         <!-- TODO: highlight main design features
                 - hybrid text-visual interface
@@ -59,26 +63,34 @@
                 <!-- TODO: Add screenshots -->
                 <h4 class="col s12 light header center">DeepForge simplifies and accelerates deep learning development</h4>
             </div>
+            <!--<div class="row ">-->
+                <!--<div class="col s3"></div>-->
+                <!--<div class="col s3">-->
+                    <!--<img class="materialboxed" data-caption="" src="img/overview.png" width="650"/>-->
+                <!--</div>-->
+                <!--<div class="col s3"></div>-->
+            <!--</div>-->
             <div class="row center">
                 <div class="col s12 m4">
                     <div class="center promo">
-                        <i class="material-icons large">flash_on</i>
+                        <i class="material-icons large">web</i>
                         <p>Visual Editing</p>
-                        <p>Supporting real-time collaboration...</p>
+                        <p>Quickly and easily design neural network architectures and machine learning pipelines using a simple, intuitive interface.</p>
                     </div>
                 </div>
                 <div class="col s12 m4">
                     <div class="center promo">
                         <i class="material-icons large">flash_on</i>
                         <p>Rapid Development</p>
-                        <p>Supporting real-time collaboration...</p>
+                        <p>Design, develop and iterate on your neural network models from within the browser. Train the models on remote machines and monitor all executions using real-time feedback!</p>
+                        <!--<p>Sophisticated collaboration support ranging from real-time editing to leveraging branches to manage team projects.</p>-->
                     </div>
                 </div>
                 <div class="col s12 m4">
                     <div class="center promo">
-                        <i class="material-icons large">flash_on</i>
+                        <i class="material-icons large">call_split</i>
                         <p>Integrated Version Control</p>
-                        <p>Supporting real-time collaboration...</p>
+                        <p>Every experiment can be easily reproduced as everything is automatically version controlled. </p>
                     </div>
                 </div>
             </div>
