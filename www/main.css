@@ -15,7 +15,11 @@
 }
 
 .banner-background {
-  background: linear-gradient(135deg, hsl(29, 32%, 41%), #313131);
+  background: linear-gradient(135deg, hsl(29, 32%, 41%), hsla(236, 78%, 7%, 1));
+}
+
+img.overview {
+  margin: auto;
 }
 
 .banner-background .h5 {
