@@ -29,8 +29,13 @@
   margin-top: 75px;
 }
 
-.banner-background p {
+.banner-background .subtitle {
   font-size: 1.5em;
+  color: #a6a6a6;
+}
+
+.banner-background p {
+  font-size: 1.1em;
   color: #a6a6a6;
 }
 
