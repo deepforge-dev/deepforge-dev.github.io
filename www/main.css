@@ -22,6 +22,16 @@
 
 .banner-background {
   background: linear-gradient(135deg, hsl(29, 32%, 41%), hsla(236, 78%, 7%, 1));
+  position: relative;
+}
+
+.banner-background h3 {
+  margin-top: 75px;
+}
+
+.banner-background p {
+  font-size: 1.5em;
+  color: #a6a6a6;
 }
 
 img.overview {
