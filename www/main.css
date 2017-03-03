@@ -39,6 +39,10 @@
   color: #a6a6a6;
 }
 
+.feature-title {
+  font-size: 1.25em;
+}
+
 img.overview {
   margin: auto;
 }
@@ -47,9 +51,13 @@ img.overview {
   color: #c3c4c6;
 }
 
-.banner-background .btn-large {
+.btn-large {
   background-color: #fcbe85;
   color: #444;
+}
+
+.btn-large:hover {
+  background-color: #fdd8b4;
 }
 
 .page-footer {
