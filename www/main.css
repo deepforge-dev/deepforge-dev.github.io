@@ -58,6 +58,12 @@ img.overview {
   color: #c3c4c6;
 }
 
+.btn {
+  background-color: #fcbe85;
+  color: #444;
+  margin-bottom: 25px;
+}
+
 .btn-large {
   background-color: #fcbe85;
   color: #444;
