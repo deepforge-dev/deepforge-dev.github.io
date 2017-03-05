@@ -7,20 +7,7 @@
         <link rel="stylesheet" href="/main.css" type="text/css" media="screen" charset="utf-8">
         <script charset="utf-8" src="lib/jquery.min.js"></script>
         <script charset="utf-8" src="lib/materialize.min.js"></script>
-        <script charset="utf-8">
-            $(document).ready(function() {
-                $('.materialboxed').materialbox();
-                // Get the latest version name and update the main link
-                $.ajax({
-                    url: 'https://api.github.com/repos/deepforge-dev/deepforge/releases/latest'
-                }).done(function(data) {
-                    var releaseAnchor = $('#latest-version');
-                    if (data) {
-                        releaseAnchor.text(data.name);
-                    }
-                })
-            });
-        </script>
+        <script charset="utf-8" src="main.js"></script>
     </head>
 <body>
     <nav>
@@ -40,7 +27,7 @@
             <p class="subtitle">DeepForge is a development environment for deep learning designed for<br> simplicity, collaboration and reproducibility of experiments</p>
         </div>
         <div class="row center">
-            <a class="btn-large waves-effect waves-light" href="#quick-start" target="_blank">Get Started!</a>
+            <a id="get-started-btn" class="btn-large waves-effect waves-light">Get Started!</a>
         </div>
         <p class="center">Latest Release: <a id="latest-version" href="https://github.com/deepforge-dev/deepforge/releases/latest">v1.1.0</a></p>
         <a href="https://github.com/deepforge-dev/deepforge">
@@ -96,10 +83,10 @@
                 </div>
             </div>
         </div>
-        <div class="divider"></div>
+        <div id="quick-start" class="divider"></div>
         <div class="section">
             <div class="row center">
-                <h4 id="quick-start" class="col s12 light header center">Quick Start</h4>
+                <h4 class="col s12 light header center">Quick Start</h4>
                 <p class="caption">First, install the dependencies, <a href="http://nodejs.org/en/download">NodeJS</a> (v6) and <a href="https://mongodb.com" >MongoDB</a>, and start MongoDB locally.</p>
                 <p class="caption">DeepForge can then be installed using:</p>
                 <p class="code-snippet">npm install -g deepforge</p>
