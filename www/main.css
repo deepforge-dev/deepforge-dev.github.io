@@ -69,6 +69,10 @@ img.overview {
   color: #444;
 }
 
+.btn-large:focus {
+  background-color: #fdd8b4;
+}
+
 .btn-large:hover {
   background-color: #fdd8b4;
 }
