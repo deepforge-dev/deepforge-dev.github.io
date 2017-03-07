@@ -22,4 +22,10 @@ $(document).ready(function() {
             releaseAnchor.text(data.name);
         }
     });
+
+    // Make sure all anchors change the host page if embedded in iframe
+    var anchors = document.getElementsByTagName('a');
+    anchors.forEach(function(anchor) {
+        anchor.setAttribute('target','_top');
+    });
 });
