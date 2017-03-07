@@ -25,7 +25,7 @@ $(document).ready(function() {
 
     // Make sure all anchors change the host page if embedded in iframe
     var anchors = document.getElementsByTagName('a');
-    anchors.forEach(function(anchor) {
-        anchor.setAttribute('target','_top');
-    });
+    for (var i = anchors.length; i--;) {
+        anchors[i].setAttribute('target','_top');
+    }
 });
