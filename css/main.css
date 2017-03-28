@@ -92,7 +92,23 @@ img.overview {
 .brand-logo {
   background: url(./deepforge-logo.png) no-repeat 10px 12px;
   background-size: 75%;
+  margin-left: 15px;
   height: 60px;
   width: 200px;
   display: block;
+}
+
+.nav-item li a{
+  font-size: 1.5em !important;
+  margin-right: 15px;
+  color: #c3c4c6 !important;
+  opacity: 0.5 !important;
+}
+
+.move-me {
+  margin-top: 35px !important;
+}
+
+.com{
+  margin-top: 20px !important;
 }
