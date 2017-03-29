@@ -4,6 +4,7 @@
 
 .really-dark {
   background-color: #040620!important;
+  margin-bottom: -150px !important;
 }
 
 .logo-grey {
@@ -92,7 +93,30 @@ img.overview {
 .brand-logo {
   background: url(./deepforge-logo.png) no-repeat 10px 12px;
   background-size: 75%;
+  margin-left: 15px;
   height: 60px;
   width: 200px;
   display: block;
+}
+
+
+.section.no-pad-bot {
+    margin-top: -30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 1.2em;
+}
+
+button .navbar-toggle{
+  background-color: #040620 !important; 
+}
+
+.move-me {
+  margin-top: 35px !important;
+}
+
+.com{
+  margin-top: 1px !important;
 }
