@@ -4,6 +4,7 @@
 
 .really-dark {
   background-color: #040620!important;
+  margin-bottom: -150px !important;
 }
 
 .logo-grey {
@@ -98,11 +99,18 @@ img.overview {
   display: block;
 }
 
-.nav-item li a{
-  font-size: 1.5em !important;
-  margin-right: 15px;
-  color: #c3c4c6 !important;
-  opacity: 0.5 !important;
+
+.section.no-pad-bot {
+    margin-top: -30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 1.2em;
+}
+
+button .navbar-toggle{
+  background-color: #040620 !important; 
 }
 
 .move-me {
