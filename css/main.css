@@ -64,6 +64,14 @@ img.overview {
   margin-bottom: 25px;
 }
 
+.btn:focus {
+  background-color: #fdd8b4;
+}
+
+.btn:hover {
+  background-color: #fdd8b4;
+}
+
 .btn-large {
   background-color: #fcbe85;
   color: #444;
